@@ -54,7 +54,7 @@ div#form_wrapper {
 div#kwh_div {
     overflow: hidden;
     position: relative;
-    background-color: #CCFFFF;
+    background-color: #EEFFDE; /*#CCFFFF*/
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     margin-left: auto;

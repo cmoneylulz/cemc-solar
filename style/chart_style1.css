@@ -63,7 +63,7 @@ div.form_wrapper {
 div#kwh_div {
     overflow: hidden;
     position: relative;
-    background-color: #CCFFFF;
+    background-color: #CCFF66; /*#CCFFFF*/
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     margin-left: auto;
@@ -96,7 +96,7 @@ h3.center-text {
 
 input.button {
     border: 2px solid black;
-    background-color: #CCFFFF;
+    background-color: #FFF; /*#CCFFFF*/
     font-weight: bold;
     height: 25px;
 }
@@ -107,7 +107,7 @@ form {
 
 .select-custom {
     border: 2px solid black;
-    background-color: #CCFFFF;
+    background-color: #FFF; /*#CCFFFF*/
     font-weight: bold;
     height: 25px;
 }

@@ -21,10 +21,10 @@
     <div id="wrapper">    
         <form method="post" action="index.php" name="date-form">
             <div class="form_wrapper">
-                <?php
-                    include("start_date_select_form.php");
-                    include("end_date_select_form.php");
-                ?>
+                <?php include("start_date_select_form.php"); ?>
+            </div>
+            <div class="form_wrapper">
+                <?php include("end_date_select_form.php"); ?>
             </div>
             <div class="form_wrapper">
                 <input class="button" type="button" name="total_kwh" value="Total kWh" onclick="drawKwhChart()" />

@@ -6,15 +6,23 @@ if (!$conn)
 }
 
 //GET TOTAL # OF READINGS
-$query = "SELECT COUNT(DISTINCT METERMITREADDT) AS RC FROM DCSI.METERACCTSMIT WHERE SERIALNUMBER=16508212 AND METERMITDATA2ID=0 AND METERMITDATA1 > 0";
+$query = "SELECT COUNT(DISTINCT METERTCREADDT) AS RC FROM DCSI.METERACCTSTC WHERE SERIALNUMBER=11889004 AND METERTCTOTALCONSUMPT > 0";
 $rs =  odbc_exec($conn, $query);
 $reading_count = odbc_result($rs, "RC");
 
 //GET AVG PAYOFF & EST DAYS TIL PROFIT
-$query = "SELECT max(METERMITDATA1) FROM DCSI.METERACCTSMIT WHERE SERIALNUMBER=16508212 AND METERMITDATA2ID=0 AND METERMITDATA1 > 0";
+$query = "SELECT max(METERTCTOTALCONSUMPT) FROM DCSI.METERACCTSTC WHERE SERIALNUMBER=11889004 AND METERTCTOTALCONSUMPT > 0";
 $rs =  odbc_exec($conn, $query);
-$current_pulses = odbc_result($rs, "max(METERMITDATA1)");
-$current_kwh = $current_pulses * 2.5 / 1000000;
+
+/* Conversion Constants For Pulses -> KWH */
+$kr = 1;
+$kh = 2.5;
+$mpn = 8;
+$divisor = 1000;
+$mpd = 10;
+
+$current_pulses = odbc_result($rs, "max(METERTCTOTALCONSUMPT)");
+$current_kwh = ($current_pulses * $kr * $kh * $mpn) / ($divisor * $mpd);
 $average_kwh = $current_kwh / $reading_count;
 $current_payoff = $current_kwh * .055;
 $average_payoff = $current_payoff / $reading_count;

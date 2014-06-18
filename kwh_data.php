@@ -26,7 +26,7 @@ if (!isset($_POST['end_date'])){
     $end_date = $_POST['end_date'];
 }
 
-$query = "SELECT * FROM DCSI.METERACCTSMIT WHERE METERMITREADDT between to_date('$start_date', 'yyyy-mm-dd') and to_date('$end_date', 'yyyy-mm-dd') AND SERIALNUMBER=16508212 AND METERMITDATA2ID = 0 AND METERMITDATA1 > 0 ORDER BY METERMITREADDT ASC";
+$query = "SELECT * FROM DCSI.METERACCTSTC WHERE METERTCREADDT between to_date('$start_date', 'yyyy-mm-dd') and to_date('$end_date', 'yyyy-mm-dd') AND SERIALNUMBER=11889004 AND METERTCTOTALCONSUMPT > 0 ORDER BY METERTCREADDT ASC"; /*AND METERMITDATA2ID = 0 AND METERMITDATA1 > 0 ORDER BY METERMITREADDT ASC";*/
 $rs = odbc_exec($connection, $query);
 
 if (!$rs){
@@ -39,11 +39,19 @@ $table['cols'] = array(
     array('label' => 'kWh', 'type' => 'number'),
 );
 $rows = array();
+
+/* Conversion Constants For Pulses -> KWH */
+$kr = 1;
+$kh = 2.5;
+$mpn = 8;
+$divisor = 1000;
+$mpd = 10;
+
 while(odbc_fetch_row($rs)){
-    $date = odbc_result($rs,"METERMITREADDT");
+    $date = odbc_result($rs,"METERTCREADDT");
     $timestamp = strtotime($date) * 1000;
-    $pulses = odbc_result($rs,"METERMITDATA1");
-    $kwh = $pulses * 2.5 / 1000000;
+    $pulses = odbc_result($rs,"METERTCTOTALCONSUMPT");
+    $kwh = ($pulses * $kr * $kh * $mpn) / ($divisor * $mpd);
     $temp = array();
     $temp[] = array('v' => "Date($timestamp)");
     $temp[] = array('v' => (float) $kwh);

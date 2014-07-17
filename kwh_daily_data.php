@@ -4,7 +4,6 @@
  * User: cwilson
  * Date: 1/3/14
  * Time: 8:24 AM
- * GITHUB TEST
  */
 
 $connection = odbc_connect('TWACS','DCSI','DCSI');
@@ -48,6 +47,9 @@ $mpn = 8;
 $divisor = 1000;
 $mpd = 10;
 
+/* Date Constants */
+$one_day = 24 * 60 * 60 * 1000;
+
 odbc_fetch_row($rs);
 
 $pulses = odbc_result($rs,"METERTCTOTALCONSUMPT");
@@ -76,20 +78,22 @@ while (odbc_fetch_row($rs))
             $temp[] = array('v' => "Date($timestamp)");
             $temp[] = array('v' => (float) $daily_kwh);
             $rows[] = array('c' => $temp);
-        } else {
-            $temp = array();
-            $temp[] = array('v' => "Date($timestamp)");
-            $temp[] = array('v' => (float) ($daily_kwh / 2));
-            $rows[] = array('c' => $temp);
+        } 
+        else 
+        {
+            $missing_days = $time_diff / 24;
+            $avg_daily_kwh = $daily_kwh / $missing_days;
+            $new_timestamp = $timestamp;
 
-            $temp1 = array();            
 
-            $one_day = 24 * 60 * 60 * 1000;
-            $new_timestamp = $timestamp - $one_day;
-
-            $temp1[] = array('v' => "Date($new_timestamp)");
-            $temp1[] = array('v' => (float) ($daily_kwh / 2));
-            $rows[] = array('c' => $temp1);
+            for ($i = 0; $i <= $missing_days; $i++) 
+            { 
+                $temp = array();
+                $temp[] = array('v' => "Date($new_timestamp)");
+                $temp[] = array('v' => (float) ($avg_daily_kwh));
+                $rows[] = array('c' => $temp);
+                $new_timestamp = $new_timestamp - $one_day;
+            }
         }
     }
     $prev_kwh = $current_kwh;    

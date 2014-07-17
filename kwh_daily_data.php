@@ -4,6 +4,7 @@
  * User: cwilson
  * Date: 1/3/14
  * Time: 8:24 AM
+ * GITHUB TEST
  */
 
 $connection = odbc_connect('TWACS','DCSI','DCSI');

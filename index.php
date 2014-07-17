@@ -39,7 +39,7 @@
             <div id="thermo2" class="thermometer horizontal">
                 <div class="track">
                     <div class="goal">
-                        <div class="amount">10000 </div>
+                        <div class="amount">13500 </div>
                     </div>
                     <div class="progress">
                         <div class="amount"><?php echo($current_payoff); ?> </div>

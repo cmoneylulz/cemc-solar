@@ -48,21 +48,52 @@ $divisor = 1000;
 $mpd = 10;
 
 odbc_fetch_row($rs);
+
 $pulses = odbc_result($rs,"METERTCTOTALCONSUMPT");
 $prev_kwh = ($pulses * $kr * $kh * $mpn) / ($divisor * $mpd);
-while(odbc_fetch_row($rs)){
+while (odbc_fetch_row($rs))
+{
     $date = odbc_result($rs,"METERTCREADDT");
     $timestamp = strtotime($date) * 1000;
+
+    if (!isset($prev_timestamp))
+    {
+        $prev_timestamp = $timestamp;
+    }
+
     $pulses = odbc_result($rs,"METERTCTOTALCONSUMPT");
     $current_kwh = ($pulses * $kr * $kh * $mpn) / ($divisor * $mpd);
     $daily_kwh = ($current_kwh - $prev_kwh);
-    if ($prev_kwh > 0 and $current_kwh > 0){
-        $temp = array();
-        $temp[] = array('v' => "Date($timestamp)");
-        $temp[] = array('v' => (float) $daily_kwh);
-        $rows[] = array('c' => $temp);
+
+    $time_diff = ((($timestamp - $prev_timestamp) / 1000 ) / 60) / 60;
+
+    if ($prev_kwh > 0 and $current_kwh > 0)
+    {
+        if ($time_diff < 25)
+        {
+            $temp = array();
+            $temp[] = array('v' => "Date($timestamp)");
+            $temp[] = array('v' => (float) $daily_kwh);
+            $rows[] = array('c' => $temp);
+        } else {
+            $temp = array();
+            $temp[] = array('v' => "Date($timestamp)");
+            $temp[] = array('v' => (float) ($daily_kwh / 2));
+            $rows[] = array('c' => $temp);
+
+            $temp1 = array();            
+
+            $one_day = 24 * 60 * 60 * 1000;
+            $new_timestamp = $timestamp - $one_day;
+
+            $temp1[] = array('v' => "Date($new_timestamp)");
+            $temp1[] = array('v' => (float) ($daily_kwh / 2));
+            $rows[] = array('c' => $temp1);
+        }
     }
-    $prev_kwh = $current_kwh;}
+    $prev_kwh = $current_kwh;    
+    $prev_timestamp = $timestamp;
+}
 
 odbc_close($connection);
 

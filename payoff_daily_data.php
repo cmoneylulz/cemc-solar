@@ -102,7 +102,7 @@ while (odbc_fetch_row($rs))
                 $temp = array();
                 $temp[] = array('v' => "Date($new_timestamp)");
                 $temp[] = array('v' => (float) ($avg_daily_payoff));
-                $temp[] = array('v' => 'color: black');
+                $temp[] = array('v' => 'color: darkseagreen');
                 $rows[] = array('c' => $temp);
                 $new_timestamp = $new_timestamp - $one_day;
             }

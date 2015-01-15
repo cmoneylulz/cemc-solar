@@ -93,7 +93,7 @@ function drawKwhDailyChart() {
     //set options
     var options = {
         backgroundColor: { fill: '#EEFFDE' },
-        colors: ['forestgreen', 'black'],
+        colors: ['forestgreen', 'darkseagreen'],
         title: 'Daily kWh generated',
         vAxis: {
             title: 'kWh Generated:',
@@ -144,7 +144,7 @@ function drawPayoffDailyChart() {
     //set options
     var options = {
         backgroundColor: { fill: '#EEFFDE' },
-        colors: ['forestgreen', 'black'],
+        colors: ['forestgreen', 'darkseagreen'],
         title: 'Daily payoff generated',
         vAxis: {
             title: 'Payoff Generated:', minValue: 0

@@ -77,6 +77,10 @@ while (odbc_fetch_row($rs))
     $daily_kwh = ($current_kwh - $prev_kwh) / $day_count;
     $daily_payoff = $daily_kwh * .055;
 
+    if ($daily_payoff < 0) {
+        $daily_payoff = 0;
+    }
+
     if ($prev_kwh > 0 and $current_kwh > 0)
     {
         if ($time_diff < 25)

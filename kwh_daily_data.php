@@ -69,6 +69,11 @@ while (odbc_fetch_row($rs))
     $current_kwh = ($pulses * $kr * $kh * $mpn) / ($divisor * $mpd);
     $daily_kwh = ($current_kwh - $prev_kwh);
 
+    if ($daily_kwh < 0)
+    {
+        $daily_kwh = 0;
+    }
+
     $time_diff = ((($timestamp - $prev_timestamp) / 1000 ) / 60) / 60;
 
     if ($prev_kwh > 0 and $current_kwh > 0)

@@ -77,6 +77,7 @@ while (odbc_fetch_row($rs))
             $temp = array();
             $temp[] = array('v' => "Date($timestamp)");
             $temp[] = array('v' => (float) $daily_kwh);
+            $temp[] = array('v' => 'color: forestgreen');
             $rows[] = array('c' => $temp);
         } 
         else 
@@ -91,6 +92,7 @@ while (odbc_fetch_row($rs))
                 $temp = array();
                 $temp[] = array('v' => "Date($new_timestamp)");
                 $temp[] = array('v' => (float) ($avg_daily_kwh));
+                $temp[] = array('v' => 'color: #000000');
                 $rows[] = array('c' => $temp);
                 $new_timestamp = $new_timestamp - $one_day;
             }

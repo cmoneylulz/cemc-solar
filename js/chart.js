@@ -126,7 +126,7 @@ function drawPayoffDailyChart() {
     //set options
     var options = {
         backgroundColor: {fill: '#EEFFDE'},
-        colors: ['forestgreen'],
+        //colors: ['forestgreen'],
         title: 'Daily payoff generated',
         vAxis: {title: 'Payoff Generated:', minValue: 0},
         height: 500

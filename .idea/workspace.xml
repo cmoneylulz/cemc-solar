@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fa39461-6ccf-4044-824c-878514b9e675" name="Default" comment="" />
+    <list default="true" id="1fa39461-6ccf-4044-824c-878514b9e675" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/chart.js" afterPath="$PROJECT_DIR$/js/chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kwh_daily_data.php" afterPath="$PROJECT_DIR$/kwh_daily_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="solar_panel.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,88 +30,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="8" selection-start="617" selection-end="1287" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="1207">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chart.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="9" selection-start="2604" selection-end="2606" vertical-scroll-proportion="-10.846154" vertical-offset="1061" max-vertical-offset="2363">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thermometer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/thermometer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="50" selection-start="2491" selection-end="2494" vertical-scroll-proportion="-26.653847" vertical-offset="497" max-vertical-offset="1343">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chart_style.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style/chart_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="19" selection-start="968" selection-end="968" vertical-scroll-proportion="0.7798165" vertical-offset="289" max-vertical-offset="4063">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kwh_daily_data.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="kwh_daily_data.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="62" selection-start="249" selection-end="307" vertical-scroll-proportion="-1.3076923" vertical-offset="136" max-vertical-offset="1122">
+            <state vertical-scroll-proportion="-16.346153" vertical-offset="833" max-vertical-offset="1887">
+              <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
               <folding>
-                <marker date="1391526706904" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+                <marker date="1421355780686" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kwh_data.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kwh_data.php">
+      <file leaf-file-name="chart.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/chart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="122" selection-end="122" vertical-scroll-proportion="3.2692308" vertical-offset="136" max-vertical-offset="1003">
-              <folding>
-                <marker date="1392391789416" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start_date_select_form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start_date_select_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="28" selection-start="655" selection-end="655" vertical-scroll-proportion="-0.0" vertical-offset="306" max-vertical-offset="1173">
+            <state vertical-scroll-proportion="0.53579676" vertical-offset="1525" max-vertical-offset="2414">
+              <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="end_date_select_form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/end_date_select_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="46" selection-start="447" selection-end="489" vertical-scroll-proportion="3.2692308" vertical-offset="289" max-vertical-offset="1190">
-              <folding>
-                <marker date="1392741754568" expanded="true" signature="630:1278" placeholder="..." />
-                <marker date="1392741754568" expanded="true" signature="663:1271" placeholder="..." />
-                <marker date="1392741754568" expanded="true" signature="846:1260" placeholder="..." />
-                <marker date="1392741754568" expanded="true" signature="1307:1779" placeholder="..." />
-                <marker date="1392741754568" expanded="true" signature="1340:1772" placeholder="..." />
-                <marker date="1392741754568" expanded="true" signature="1419:1761" placeholder="..." />
-                <marker date="1392741754568" expanded="true" signature="1808:2305" placeholder="..." />
-                <marker date="1392741754568" expanded="true" signature="1841:2298" placeholder="..." />
-                <marker date="1392741754568" expanded="true" signature="1922:2287" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -116,24 +59,19 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/odbc_test.php" />
-        <option value="$PROJECT_DIR$/chart_test.php" />
-        <option value="$PROJECT_DIR$/js/thermometer.js" />
-        <option value="$PROJECT_DIR$/ChartController.php" />
-        <option value="$PROJECT_DIR$/payoff_data.php" />
-        <option value="$PROJECT_DIR$/js/chart.js" />
-        <option value="$PROJECT_DIR$/payoff_daily_data.php" />
         <option value="$PROJECT_DIR$/kwh_daily_data.php" />
-        <option value="$PROJECT_DIR$/kwh_data.php" />
-        <option value="$PROJECT_DIR$/end_date_select_form.php" />
-        <option value="$PROJECT_DIR$/start_date_select_form.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/style/chart_style.css" />
+        <option value="$PROJECT_DIR$/js/chart.js" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -142,7 +80,7 @@
     <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -156,7 +94,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -183,7 +121,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="solar_panel" />
+              <option name="myItemId" value="cemc-solar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -193,25 +131,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="solar_panel" />
+              <option name="myItemId" value="cemc-solar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solar_panel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solar_panel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,8 +145,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cemc_photomap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -237,7 +164,7 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -246,10 +173,14 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1fa39461-6ccf-4044-824c-878514b9e675" name="Default" comment="" />
       <created>1387546573781</created>
+      <option name="number" value="Default" />
       <updated>1387546573781</updated>
     </task>
     <servers />
@@ -263,17 +194,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13980465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14303179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997763" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -293,13 +225,16 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14810282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -313,407 +248,425 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/start_date_select_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="16" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1173">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1173">
+          <caret line="62" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/end_date_select_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="46" selection-start="447" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1275">
-          <folding>
-            <marker date="1392741754568" expanded="true" signature="630:1278" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="663:1271" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="846:1260" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1307:1779" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1340:1772" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1419:1761" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1808:2305" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1841:2298" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1922:2287" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1275">
+          <caret line="17" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="36" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1207">
+          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1391526706904" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421355780686" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="42" selection-start="597" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1003">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1003">
+          <caret line="28" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1392391789416" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421351465972" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/start_date_select_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="969">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="969">
+          <caret line="17" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/end_date_select_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="76" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1292">
-          <folding>
-            <marker date="1392741754568" expanded="true" signature="630:1278" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="663:1271" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="846:1260" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1307:1779" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1340:1772" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1419:1761" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1808:2305" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1841:2298" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1922:2287" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1292">
+          <caret line="26" column="76" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="36" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1207">
+          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1391526706904" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421355780686" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="42" selection-start="597" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1003">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1003">
+          <caret line="28" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1392391789416" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421351465972" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/start_date_select_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="969">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="969">
+          <caret line="17" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/end_date_select_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="76" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1292">
-          <folding>
-            <marker date="1392741754568" expanded="true" signature="630:1278" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="663:1271" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="846:1260" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1307:1779" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1340:1772" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1419:1761" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1808:2305" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1841:2298" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1922:2287" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1292">
+          <caret line="26" column="76" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="36" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1207">
+          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1391526706904" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421355780686" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="62" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1088">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1088">
+          <caret line="15" column="62" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1392391789416" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421351465972" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/start_date_select_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="884">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="884">
+          <caret line="12" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/end_date_select_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="76" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1292">
-          <folding>
-            <marker date="1392741754568" expanded="true" signature="630:1278" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="663:1271" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="846:1260" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1307:1779" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1340:1772" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1419:1761" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1808:2305" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1841:2298" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1922:2287" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1292">
+          <caret line="26" column="76" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1173">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1173">
+          <caret line="36" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/chart_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="1" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="3842" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="3842">
+          <caret line="103" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="65" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="2363" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="2363">
+          <caret line="76" column="65" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="249" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1207">
+          <caret line="15" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1391526706904" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421355780686" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="62" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1088">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1088">
+          <caret line="15" column="62" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1392391789416" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421351465972" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/payoff_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="62" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1190" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1190">
+          <caret line="16" column="62" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="36" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/chart_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="1" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="3842" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="3842">
+          <caret line="103" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="65" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2363" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2363">
+          <caret line="76" column="65" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="1" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1207">
+          <caret line="33" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1391526706904" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421355780686" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="36" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/chart_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="1" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="3842" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="3842">
+          <caret line="103" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="65" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2363" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2363">
+          <caret line="76" column="65" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="1" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1207">
+          <caret line="33" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1391526706904" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421355780686" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="36" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/chart_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="1" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="3842" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="3842">
+          <caret line="103" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="65" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2363" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2363">
+          <caret line="76" column="65" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="1" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1207">
+          <caret line="33" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1391526706904" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
+            <marker date="1421355780686" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/thermometer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="25" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1343" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1343">
+          <caret line="35" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="19" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/payoff_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="765" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="765">
+          <caret line="29" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/chart_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="646" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="646">
+          <caret line="10" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kwh_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="16" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="782" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="782">
+          <caret line="20" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/payoff_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="919" selection-end="919" vertical-scroll-proportion="0.43536586" vertical-offset="0" max-vertical-offset="820" />
+        <state vertical-scroll-proportion="0.43536586" vertical-offset="0" max-vertical-offset="820">
+          <caret line="21" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/payoff_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="62" selection-start="308" selection-end="308" vertical-scroll-proportion="0.2244898" vertical-offset="0" max-vertical-offset="1190" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start_date_select_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="28" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1173">
-          <folding />
+        <state vertical-scroll-proportion="0.2244898" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="16" column="62" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kwh_data.php">
+    <entry file="file://$PROJECT_DIR$/style/chart_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="122" selection-end="122" vertical-scroll-proportion="3.2692308" vertical-offset="136" max-vertical-offset="1003">
-          <folding>
-            <marker date="1392391789416" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="62" selection-start="249" selection-end="307" vertical-scroll-proportion="-1.3076923" vertical-offset="136" max-vertical-offset="1122">
-          <folding>
-            <marker date="1391526706904" expanded="true" signature="583:820" placeholder="SELECT * FRO..METERACCTSMIT..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="9" selection-start="2604" selection-end="2606" vertical-scroll-proportion="-10.846154" vertical-offset="1061" max-vertical-offset="2363">
+        <state vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="4216">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/thermometer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="50" selection-start="2491" selection-end="2494" vertical-scroll-proportion="-26.653847" vertical-offset="497" max-vertical-offset="1343">
+        <state vertical-scroll-proportion="0.82789654" vertical-offset="454" max-vertical-offset="1343">
+          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11355736" vertical-offset="293" max-vertical-offset="1156">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwh_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1139">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <marker date="1421351465972" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start_date_select_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1529548" vertical-offset="174" max-vertical-offset="1037">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/end_date_select_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="46" selection-start="447" selection-end="489" vertical-scroll-proportion="3.2692308" vertical-offset="289" max-vertical-offset="1190">
-          <folding>
-            <marker date="1392741754568" expanded="true" signature="630:1278" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="663:1271" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="846:1260" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1307:1779" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1340:1772" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1419:1761" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1808:2305" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1841:2298" placeholder="..." />
-            <marker date="1392741754568" expanded="true" signature="1922:2287" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="617" selection-end="1287" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="0.09385863" vertical-offset="123" max-vertical-offset="986">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/chart_style.css">
+    <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="19" selection-start="968" selection-end="968" vertical-scroll-proportion="0.7798165" vertical-offset="289" max-vertical-offset="4063">
+        <state vertical-scroll-proportion="-16.346153" vertical-offset="833" max-vertical-offset="1887">
+          <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+          <folding>
+            <marker date="1421355780686" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53579676" vertical-offset="1525" max-vertical-offset="2414">
+          <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

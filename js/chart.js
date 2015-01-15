@@ -80,10 +80,11 @@ function drawKwhDailyChart() {
         async:false
     }).responseText;
     var data = new google.visualization.DataTable(kwhDailyData);
+    data.addColumn('number', 'Estimated kWh (used when an exact reading is unavailable)');
     //set options
     var options = {
         backgroundColor: {fill: '#EEFFDE'},
-        colors: ['forestgreen'],
+        colors: ['forestgreen', 'black'],
         title: 'Daily kWh generated',
         vAxis: {title: 'kWh Generated:', minValue: 0},
         height: 500
@@ -91,6 +92,7 @@ function drawKwhDailyChart() {
     //draw chart w/ options
     var chart =  new google.visualization.ColumnChart(document.getElementById('kwh_div'));
     chart.draw(data, options);
+
 }
 function drawPayoffDailyChart() {
     var start_year = $("#year-select-form").val();
@@ -123,10 +125,11 @@ function drawPayoffDailyChart() {
         async:false
     }).responseText;
     var data = new google.visualization.DataTable(payoffDailyData);
+    data.addColumn('number', 'Estimated payoff (used when an exact reading is unavailable)');
     //set options
     var options = {
         backgroundColor: {fill: '#EEFFDE'},
-        //colors: ['forestgreen'],
+        colors: ['forestgreen', 'black'],
         title: 'Daily payoff generated',
         vAxis: {title: 'Payoff Generated:', minValue: 0},
         height: 500

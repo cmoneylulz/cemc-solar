@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fa39461-6ccf-4044-824c-878514b9e675" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payoff_daily_data.php" afterPath="$PROJECT_DIR$/payoff_daily_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/chart.js" afterPath="$PROJECT_DIR$/js/chart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="solar_panel.iws" />
@@ -31,45 +31,21 @@
       <file leaf-file-name="kwh_daily_data.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.5" vertical-offset="867" max-vertical-offset="1904">
-              <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="55" />
+            <state vertical-scroll-proportion="-7.8461537" vertical-offset="357" max-vertical-offset="1904">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
               <folding>
-                <marker date="1421356726328" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+                <marker date="1421357589163" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payoff_daily_data.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/payoff_daily_data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88391775" vertical-offset="884" max-vertical-offset="2006">
-              <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
-              <folding>
-                <marker date="1421356909802" expanded="true" signature="585:802" placeholder="SELECT * FRO..METERACCTSTC..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chart.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chart.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/chart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1372" max-vertical-offset="2414">
-              <caret line="97" column="48" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.9018476" vertical-offset="1446" max-vertical-offset="2465">
+              <caret line="131" column="41" selection-start-line="131" selection-start-column="41" selection-end-line="131" selection-end-column="41" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kwh_data.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kwh_data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="51" max-vertical-offset="1139">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding>
-                <marker date="1421351465972" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,9 +63,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/chart.js" />
-        <option value="$PROJECT_DIR$/kwh_daily_data.php" />
         <option value="$PROJECT_DIR$/payoff_daily_data.php" />
+        <option value="$PROJECT_DIR$/kwh_daily_data.php" />
+        <option value="$PROJECT_DIR$/js/chart.js" />
       </list>
     </option>
   </component>
@@ -218,7 +194,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421356749304</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added different color for estimated payoff generated when data is not available for that day">
+      <created>1421356970998</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1421356970998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -284,7 +266,8 @@
     </option>
     <MESSAGE value="testing colors update" />
     <MESSAGE value="new colors working for days with missing data" />
-    <option name="LAST_COMMIT_MESSAGE" value="new colors working for days with missing data" />
+    <MESSAGE value="added different color for estimated payoff generated when data is not available for that day" />
+    <option name="LAST_COMMIT_MESSAGE" value="added different color for estimated payoff generated when data is not available for that day" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -320,7 +303,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1207">
           <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421356726328" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421357589163" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -330,7 +313,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1003">
           <caret line="28" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421351465972" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421351465972" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -364,7 +347,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1207">
           <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421356726328" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421357589163" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -374,7 +357,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1003">
           <caret line="28" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421351465972" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421351465972" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -408,7 +391,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1207">
           <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421356726328" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421357589163" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -418,7 +401,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1088">
           <caret line="15" column="62" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421351465972" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421351465972" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -466,7 +449,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1207">
           <caret line="15" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421356726328" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421357589163" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -476,7 +459,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1088">
           <caret line="15" column="62" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421351465972" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421351465972" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -515,7 +498,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1207">
           <caret line="33" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421356726328" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421357589163" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -547,7 +530,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1207">
           <caret line="33" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421356726328" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421357589163" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -579,7 +562,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1207">
           <caret line="33" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1421356726328" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421357589163" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
@@ -673,41 +656,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1372" max-vertical-offset="2414">
-          <caret line="97" column="48" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kwh_data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1139">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
-            <marker date="1421351465972" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.5" vertical-offset="867" max-vertical-offset="1904">
-          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="55" />
-          <folding>
-            <marker date="1421356726328" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421351465972" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/payoff_daily_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88391775" vertical-offset="884" max-vertical-offset="2006">
-          <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
+        <state vertical-scroll-proportion="-19.615385" vertical-offset="884" max-vertical-offset="2006">
+          <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
           <folding>
-            <marker date="1421356909802" expanded="true" signature="585:802" placeholder="SELECT * FRO..METERACCTSTC..." />
+            <marker date="1421356909802" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..METERACCTSTC..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kwh_daily_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="357" max-vertical-offset="1904">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <marker date="1421357589163" expanded="true" signature="583:800" placeholder="SELECT * FRO..METERACCTSTC..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9018476" vertical-offset="1446" max-vertical-offset="2465">
+          <caret line="131" column="41" selection-start-line="131" selection-start-column="41" selection-end-line="131" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

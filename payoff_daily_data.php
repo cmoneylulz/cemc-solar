@@ -41,6 +41,7 @@ $table = array();
 $table['cols'] = array(
     array('label' => 'date', 'type' => 'datetime'),
     array('label' => 'payoff', 'type' => 'number'),
+    array('type' => 'string', 'p' => array('role' => 'style'))
 );
 $rows = array();
 
@@ -83,6 +84,7 @@ while (odbc_fetch_row($rs))
             $temp = array();
             $temp[] = array('v' => "Date($timestamp)");
             $temp[] = array('v' => (float) $daily_payoff);
+            $temp[] = array('v' => 'color: forestgreen');
             $rows[] = array('c' => $temp);
         }
         else 
@@ -96,6 +98,7 @@ while (odbc_fetch_row($rs))
                 $temp = array();
                 $temp[] = array('v' => "Date($new_timestamp)");
                 $temp[] = array('v' => (float) ($avg_daily_payoff));
+                $temp[] = array('v' => 'color: black');
                 $rows[] = array('c' => $temp);
                 $new_timestamp = $new_timestamp - $one_day;
             }
